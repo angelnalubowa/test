@@ -13,6 +13,22 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.App {
+  text-align:center;
+  background-image: url('/src/images/background-image.jpg');
+}
+
+.background-image {
+  background-image: url('/src/images/background-image.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  color: #ffffff;
+  text-align: center;
+  height: 100;
+  margin: 0;
+}
 
 a {
   font-weight: 500;
@@ -31,9 +47,23 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+.title {
   font-size: 3.2em;
   line-height: 1.1;
+}
+.get-started-btn{
+  background-color: #007BFF;
+  color: #f9f9f9;
+  border-radius: 40px;
+  border: none;
+  padding: 20px 75px;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  
+  cursor: pointer;
+  transition: border-color 0.25s;
+  border: none;
 }
 
 button {
@@ -43,9 +73,10 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  
   cursor: pointer;
   transition: border-color 0.25s;
+  border: none;
 }
 button:hover {
   border-color: #646cff;
@@ -66,4 +97,979 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.create-account-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-fields input {
+  border: none;
+  border-radius: 10px; 
+  padding: 10px;
+  width: 300px;
+  font-size: 1em;
+  margin: 0;
+}
+
+.create-account-button {
+  padding: 20px 40px;
+  font-size: 1.5em;
+  background-color: #007BFF;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px; 
+}
+
+.create-account-button:hover {
+  background-color: #0056b3; 
+}
+
+.already-have-account {
+  font-size: 1em;
+  margin: 20px 0;
+}
+
+.already-have-account a {
+  color: #007BFF; 
+  text-decoration: none;
+}
+
+.already-have-account a:hover {
+  text-decoration: underline; 
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.divider hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #000; 
+}
+
+.divider span {
+  font-size: 1em;
+}
+
+.api-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.google-api-button,
+.facebook-api-button {
+  padding: 10px 10px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px; 
+  font-weight: bold;
+  background-color: rgb(235, 235, 235);
+  color: #000;
+}
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5; 
+}
+
+.create-account-page {
+  background-color: #fff; 
+  border-radius: 10px; 
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  position:relative;
+  bottom: -30px;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.create-account-page {
+  background-color: #fff; 
+  border-radius: 10px; 
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  max-width: 400px; 
+  margin: 20px; 
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; 
+  color:#000;
+}
+
+.input-fields input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%; 
+  font-size: 1em;
+  background-color: rgb(235, 235, 235);
+  color:#080808;
+}
+
+.create-account-button { 
+  font-size: 1.2em;
+  background-color: #007BFF; 
+  border: none;
+  color: #ffffff;
+  cursor: pointer; 
+  margin-top: 20px; 
+  padding: 10px 80px;
+  background-color: #007BFF;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 35px;
+}
+
+.already-have-account {
+  font-size: 1em;
+  margin: 20px 0;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.divider hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #000; 
+}
+
+.divider span {
+  font-size: 1em;
+}
+
+.api-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+  margin: 20px 0;
+}
+p1{
+  
+  position: relative;
+  bottom: -10px; 
+  left: -160px; 
+
+}
+
+.slide-button {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.slide-button-option {
+  flex: 1;
+  text-align: center;
+  padding: 10px 80px;
+  cursor: pointer;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+
+.selected {
+  background-color: #007BFF; 
+  color: #fff; 
+}
+
+.slider {
+  width: 50%;
+  height: 100%;
+  background-color: #007BFF; 
+  transition: transform 0.1s;
+}
+
+.right {
+  transform: translateX(100%);
+}
+
+.login-page {
+  text-align: center;
+  padding: 20px;
+}
+
+/*.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-fields input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  font-size: 1em;
+  position: relative;
+  left: -30px;
+}
+*/
+.checkboxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.checkboxes label {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxes input {
+  margin-right: 5px;
+}
+
+.login-button {
+  padding: 10px 100px;
+  font-size: 1.5em;
+  background-color: #007BFF;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5; 
+}
+
+.login-page {
+  background-color: #fff; 
+  border-radius: 10px; 
+  padding: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+
+  max-width: 400px; 
+  margin: 20px; 
+}
+
+.login-page p2{
+  
+  position: relative;
+  bottom: 15px; 
+  left: -30px; 
+  text-align: left;
+}
+
+/* .hostel-details {
+  padding: 10px;
+}
+
+
+
+.card-image {
+  flex: 1; 
+  overflow: hidden; 
+}
+
+.card-image img {
+  max-width: 100%;
+  object-fit: cover; 
+  border-radius: 20px; 
+  padding: 5px; 
+}
+
+.hostel-details {
+  flex: 1; 
+  padding: 20px; 
+}
+
+.home-page {
+  text-align: center;
+  padding: 20px;
+}
+InputGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  left: 50px;
+}
+input[type="text"] {
+  padding: 20px 250px;
+  border: none;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin: 20px 0;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 300px;
+  overflow: hidden;
+}
+
+button {
+  background-color:#007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 18px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  left:-10px;
+}
+
+button:hover {
+  background-color: #0253aa;
+}
+
+.hostel-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.hostel-details-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.hostel-image {
+  margin: 20px 0;
+}
+
+.hostel-image img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.amenities {
+  margin-top: 20px;
+}
+
+.filter-container {
+  display:flex;
+  justify-content:space-around;
+  margin: 30px;
+  position: relative;
+  left: -50px;
+  margin-top: 20px;
+  box-shadow: #000;
+  border-radius: 10px;
+}
+
+.filter-button {
+  padding: 10px 40px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  color:#000;
+  font-size:larger;
+  justify-content:space-around;
+  box-shadow: #000;
+}
+
+.filter-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+.filter-button:hover {
+  background-color: #d3d3d3;
+  color: #080808;
+}
+.hostels-containers{
+display: flex;
+}
+.filter-card{
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden; 
+  max-width: 300px;
+  border: 1px solid #fdfcfc;
+  padding: 1px 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+align-items:baseline;
+  background: #faf8f8;
+  position: absolute;
+  gap: 3rem;
+  bottom: -55%;
+  left: 50%;
+  color: #000;
+  font-size: larger;
+
+} */
+.booking-details {
+  background: #f5f5f5;
+  padding: 20px 100px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align:left;
+}
+
+.booking-details h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align:left;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input[type=""],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+select,
+.form-group input[type="date"] {
+  width: 100%;
+  padding: 10px 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  text-align:left;
+  position: relative;
+  left:-50px;
+}
+
+select {
+  height: 40px;
+}
+
+.booking-details button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.booking-details button:hover {
+  background-color: #0056b3;
+}
+
+.hosteldetails {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.hostel-image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hostel-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hostel-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.hostel-info h2 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.hostel-info p {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.amenities {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.amenities p {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.book-now-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  position: relative;
+  left: 10px;
+}
+
+.book-now-button:hover {
+  background-color: #0056b3;
+}
+
+
+.react-icon {
+  color: #555;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+
+.fa-bed {
+  color: #009900;
+}
+
+h4{
+  font-size: 20px;
+}
+
+
+.carousel {
+  width: 100%;
+  max-width: 700px; 
+  margin: 0 auto; 
+}
+
+.carousel .slider-wrapper {
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  overflow: hidden; 
+}
+
+.carousel .thumbs-wrapper {
+  display: none; 
+}
+
+.carousel .slide {
+  padding: 0; 
+}
+
+.carousel .thumb {
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  margin-right: 10px; 
+}
+
+
+.carousel .thumbs {
+  display: none; 
+}
+
+
+.carousel .thumbs .thumb.selected {
+  border: 2px solid #007bff; 
+}
+
+
+.hosteldetails {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px; 
+}
+
+
+.card-image {
+  flex: 1; 
+  margin-right: 20px; 
+  overflow: hidden;
+  border: none; 
+  border-radius: 5px; 
+}
+
+.card-image img {
+  width: 100%;
+  transition: transform 0.3s; 
+}
+
+
+.hostel-info {
+  flex: 2;
+}
+
+
+.card-image:hover img {
+  transform: scale(1.1); 
+}
+
+.login-image {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-image img {
+  max-width: 20%;
+  height: auto;
+}
+.login-card{
+   display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px; 
+}
+.Login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-card2{
+  display: flex;
+  justify-content:center; 
+  align-items: center; 
+  padding: -100px;  
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+}
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 10px -10px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.explore-page-container {
+  display:inline;
+  max-width: 300px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0; /* Adjust the padding as needed */
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px;
+  background-color: #fdfdfd;
+  color: #0a0a0a;
+  padding: 50px 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  position: fixed;
+  top: -20px;
+  z-index: 500;
+}
+.title{
+  font-size: 30px;
+  position: relative;
+  top:-15px;
+}
+.sidebar-item {
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.sidebar-item a {
+  text-decoration:underline;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.navbar {
+  justify-content: space-between;
+  background-color: #fff; /* Light background color */
+  padding: 8px ;
+  position: fixed;
+  left: 180px;
+  width:87%;
+  box-shadow:2px 0px 5px rgba(0, 0, 0, 0.1);
+  z-index: 400;
+}
+
+/* Left-aligned list styles */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: larger;
+  font-weight: 400;
+}
+
+.navbar li {
+  margin-right: 20px;
+  position: relative;
+  left:800px;
+  top:20px;
+  cursor: pointer;
+}
+
+.navbar li:hover::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #007bff; /* Blue line color */
+  bottom: -5px;
+  transition: transform 0.3s ease;
+  transform: scaleX(1);
+}
+
+.navbar li:active::after {
+  transform: scaleX(0);
+}
+
+/* Search form styles */
+.d-flex {
+  display: flex;
+  position: relative;
+  left:150px;
+  top: -10px;
+}
+
+/* Search input styles */
+.d-flex .form-control {
+  border: 1px solid #d3d3d3; /* Light gray border */
+  padding: 10px 250px 10px 10px; /* Adjust padding for the input */
+  border-radius: 8px; /* Slightly rounded corners */
+  font-size: 15px; /* Adjust font size */
+  outline: none; /* Remove default input outline */
+}
+
+.d-flex .form-control:focus {
+  border-color: #4285f4; /* Google blue border on focus */
+  box-shadow: 0 0 5px rgba(66, 133, 244, 0.5); /* Blue shadow on focus */
+}
+
+/* Search button styles */
+.d-flex .btn {
+  border: 1px solid #d3d3d3; /* Light gray border */
+  padding: 7.5px 14px; /* Adjust padding for the button */
+  border-radius: 1px 10px 10px 1px; /* Slightly rounded corners */
+  background-color: #0883ff; /* Light gray background */
+  color: #fff; /* Dark gray text color */
+  cursor: pointer;
+  position: relative;
+  left:-10px;
+}
+
+.d-flex .btn:hover {
+  background-color: #f0f0f0; /* Darker gray on hover */
+}
+
+.hostel-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 200px;
+  position: relative;
+  top: -100px;
+  left: 90px;
+  z-index: 100;
+}
+
+.hostel-card {
+  width: calc(33% - 50px);
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 600px; /* Adjust the card's maximum width as needed */
+  margin: 10px 0;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;  
+  align-items: center;
+}
+
+/* .hostel-card:hover {
+  transform: scale(1.05);
+} */
+
+.card-img {
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.star-icon{
+  color:gold;
+  font-size: small;
+}
+.hostel-card title{
+  font-weight: bold;
+}
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+  cursor: pointer;
+  position: relative;
+  top:-300px;
+}
+
+/* Hostel details styles */
+.hostel-details {
+  width: 400px;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+.hostel-info h2 {
+  margin-bottom: 10px;
+}
+
+.amenities {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.amenities p {
+  margin-right: 10px;
+}
+
+.action-button {
+  background-color: #c5c6c7;
+  color: #050505;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #979797;
+}
+
+.book-now-button {
+  background-color: #376cff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-button:hover {
+  background-color: #0a2df7;
+}
+.filter h2{
+  position: relative;
+  z-index: 100;
+  left:350px;
+  top: 100px;
+  font-size: 30px;
+}
+
+
+
+
+
+.showBooking{
+  display: block;
+}
+
+.hideBooking{
+  display: none;
 }

@@ -1,26 +1,25 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import image1 from './images/background-image.jpg';
+import Home from './Home';
+import CreateAccount from './CreateAccount';
+import Login from './Login';
+import HostelDetails from './HostelDetails';
+import CreateAccount2 from './CreateAccount2';
+import BookingDetails from './BookingDetails';
+import ExplorePage from './ExplorePage';
+
 function App() {
   return (
-    <div className="App">
-      <div className="background-image">
-        <div><img src={image1} alt=""/></div>
-        <div className="container">
-          <h1 className="title">Book a hostel</h1>
-          <p className="slogan">
-            The easiest and quickest way to book a hostel thats best for you at Makerere University
-          </p>
-          <button className="get-started-btn">Get Started</button>
-          <div className="links">
-    <div className="auth-links">
-      <a href="/signup" className="auth-link">Sign Up</a>
-      <div className="vertical-line"></div>
-      <a href="/signin" className="auth-link">Sign In</a>
-    </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Routes>
+      <Route path= "/" element={<Home />} />
+      <Route path="/signup" element={<CreateAccount/>} />
+      <Route path="/login" element={<Login/>} />
+      <Route path="/hostels" element={<ExplorePage />} />
+      <Route path="/hostels/:id" element={<HostelDetails />} />
+      {/* <Route path="/HostelDetails" element={<HostelDetails/>} /> */}
+      <Route path="/CreateAccount2" element={<CreateAccount2/>} />
+      <Route path="/BookingDetails" element={<BookingDetails/>} />
+    </Routes>
   );
 }
 

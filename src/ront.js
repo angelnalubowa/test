@@ -1,10 +1,11 @@
- const express = require('express')
- const { connectToDb, getDb } = require('./db')
+ import express from 'express'
+ import { connectToDb, getDb } from './db'
 
  //init application & middleware
  const app = express()
 
 // db connection
+// eslint-disable-next-line no-unused-vars
 let db
 
 connectToDb((err) => {
