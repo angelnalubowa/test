@@ -2,14 +2,14 @@
 
 import { Link, useParams } from 'react-router-dom';
 import { FaBed, FaWifi, FaBath, FaTv, FaParking, FaTh } from 'react-icons/fa'; 
-import {BsHeart } from 'react-icons/Bs';
+import {BsHeart } from 'react-icons';
 import { Carousel } from 'react-responsive-carousel';
 import { Button} from 'react-bootstrap';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import { hostels } from './ExplorePage';
-import BookingDetails from './BookingDetails';
+import BookingDetails from '../components/bookingdetails/BookingDetails';
 
 
 

@@ -1,0 +1,70 @@
+.hide{
+    display:none;
+}
+
+.show{
+    display:block;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px; /* Adjust the width as needed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ececec; /* Sidebar background color */
+    padding-top: 70px;
+    z-index: 400;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #070707; /* Sidebar text color */
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* Change color on hover */
+  .sidebar a:hover {
+    background-color: #300cfc;
+    color: #ffffff; /* Hovered text color */
+  }
+  
+  /* Content container */
+  .content {
+    margin-left: 250px; /* Adjust the margin to make space for the sidebar */
+    padding: 16px;
+  }
+  
+  /* Add some styles to the sidebar heading */
+  .sidebar h2 {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Add a border to separate the heading from links */
+  .sidebar h2:after {
+    content: '';
+    display: block;
+    margin: 20px 0;
+    border-bottom: 1px solid #ffffff;
+  }
+  /* Close icon */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #0a0a0a; /* Adjust the color as needed */
+    cursor: pointer;
+  }
+  
+  /* Change color on hover */
+  .close-icon:hover {
+    color: #1d1d1d; /* Adjust the hover color as needed */
+  }
+  

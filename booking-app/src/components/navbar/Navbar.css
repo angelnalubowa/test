@@ -1,0 +1,98 @@
+/* Customize the Navbar background color */
+.bg-body-tertiary {
+    background-color: #f8f9fa; 
+    position: fixed;
+    width: 100%;
+    z-index: 400;/* Replace with your preferred color */
+  }
+  
+  /* Style the Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* Adjust padding as needed */
+  }
+
+  
+  .form-control {
+    margin-left: 1000px;
+    border-radius: 5px;
+    padding:10px 55px;
+  }
+  
+  .btn-outline-success {
+    margin-left: 0px;
+    border-radius: 5px;
+    background-color: #2747fc; 
+    color:#e9ecef;/* Adjust as needed */
+  }
+  
+  /* Style the Filter dropdown */
+  .dropdown {
+    margin-left: 10px;
+  }
+  
+  /* Customize the Filter dropdown toggle button */
+  .dropdown-toggle {
+    background-color:  #2747fc; /* Replace with your preferred color */
+    border-color: #2747fc;
+    color:#e9ecef;
+    margin-left: -30px;
+    position: relative;
+    left: -20px;
+    top:13px;
+    border-radius: 5px;
+    padding: 8px 15px;/* Replace with your preferred color */
+  }
+  
+  /* Customize the Filter dropdown items */
+  .dropdown-item {
+    color: #2747fc; /* Replace with your preferred color */
+  }
+  
+  /* Hover effect on Filter dropdown items */
+  .dropdown-item:hover {
+    background-color: #e9ecef; /* Replace with your preferred color */
+  }
+  .icons{
+    font-size: 30px;
+    position: relative;
+    bottom: -20px;
+  }
+
+/* Search form styles */
+.d-flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Search input styles */
+  .d-flex .form-control {
+    border: 1px solid #d3d3d3; /* Light gray border */
+    padding: 10px 40px; /* Adjust padding for the input */
+    border-radius: 5px 0px 0px 5px; /* Slightly rounded corners */
+    font-size: 14px; /* Adjust font size */
+    outline: none; /* Remove default input outline */
+  }
+  
+  .d-flex .form-control:focus {
+    border-color: #4285f4; /* Google blue border on focus */
+    box-shadow: 0 0 5px rgba(66, 133, 244, 0.5); /* Blue shadow on focus */
+  }
+  
+  /* Search button styles */
+  .d-flex .btn {
+    border: 1px solid #d3d3d3; /* Light gray border */
+    padding: 7.5px 12px; /* Adjust padding for the button */
+    border-radius: 0px 5px 5px 0px; /* Slightly rounded corners */
+    background-color: #2747fc; /* Light gray background */
+    color: #e7e9eb; /* Dark gray text color */
+    cursor: pointer;
+  }
+  
+  .d-flex .btn:hover {
+    background-color: #f0f0f0; /* Darker gray on hover */
+  }
+
+  

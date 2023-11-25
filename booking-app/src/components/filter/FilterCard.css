@@ -1,0 +1,57 @@
+.hide{
+    display:none;
+}
+
+.show{
+    display:block;
+}
+ /* Style for the filter dropdown button */
+ #dropdown-basic {
+    /* Add your specific styles for the dropdown button */
+    margin-left: 8px;
+  }
+  
+  /* Style for the dropdown menu */
+  .Dropdown.Menu {
+    /* Add your specific styles for the dropdown menu */
+    border: 1px solid #ccc; /* Example border style, customize as needed */
+    border-radius: 4px; /* Example border-radius, customize as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow, customize as needed */
+  }
+  
+  /* Style for each item in the dropdown menu */
+  .Dropdown.Item {
+    /* Add your specific styles for each item in the dropdown menu */
+    padding: 10px;
+  }
+
+  
+  /* Style for the heading in each filter section */
+  .filter-section h4 {
+    /* Add your specific styles for the heading in each filter section */
+    margin-bottom: 8px; /* Example margin-bottom, customize as needed */
+  }
+  
+  /* Style for the select input in each filter section */
+  .filter-section select {
+    /* Add your specific styles for the select input */
+    width: 100%; /* Example width, customize as needed */
+    padding: 8px; /* Example padding, customize as needed */
+    margin-bottom: 12px; /* Example margin-bottom, customize as needed */
+  }
+  
+  /* Style for the price range input in the price filter section */
+  .price-range {
+    /* Add your specific styles for the price range input */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the input fields in the price range */
+  .price-range input {
+    /* Add your specific styles for the input fields in the price range */
+    width: 100px; /* Example width, customize as needed */
+    padding: 8px; /* Example padding, customize as needed */
+    margin-right: 4px; /* Example margin-right, customize as needed */
+  }
+   

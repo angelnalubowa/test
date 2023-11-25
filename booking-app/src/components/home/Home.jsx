@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
-import image1 from './images/background-image.jpg';
-function Home(){
-
-  
-return (
-<div className="App">
+import image1 from '../../images/background-image.jpg';
+import './Home.css'
+const Home = () => {
+  return (
+    <div className="App">
       <div className="background-image">
-        <div><img src={image1} alt=""/></div>
+         <div><img src={image1} alt=""/></div> 
         <div className="container">
           <h1 className="title">Book a hostel</h1>
           <p className="slogan">
@@ -27,6 +26,7 @@ return (
           </div>
         </div>
       </div>
-);
-  }
+  )
+}
+
 export default Home
